@@ -78,7 +78,7 @@ def train_with_mlflow():
         logging.info("Model evaluation completed successfully")
         
         # Tags 
-        mlflow.set_tag('Model developer', 'prsdm')
+        mlflow.set_tag('Model developer', 'ceo')
         mlflow.set_tag('preprocessing', 'OneHotEncoder, Standard Scaler, and MinMax Scaler')
         
         # Log metrics
